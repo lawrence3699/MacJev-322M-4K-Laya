@@ -1,0 +1,2 @@
+asset_name	original_path	asset_bytes	asset_sha256	original_sha256	mode
+model.safetensors	model.safetensors	1287653720	a1c8cb93485dc32a499cd221dfc9a534dd4e309f5c3ab908ea13d0190a203750	a1c8cb93485dc32a499cd221dfc9a534dd4e309f5c3ab908ea13d0190a203750	whole

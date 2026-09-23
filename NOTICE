@@ -1,0 +1,18 @@
+MacJev-322M-4K-Laya
+Independent experimental model release maintained by chaoliangUNSW.
+
+This work includes portions derived from Laya:
+https://github.com/NandhaKishorM/laya
+Upstream source commit: 573e5b62696ba441230cd6be71d593331b5d23af
+Model: convaiinnovations/laya, multilingual subfolder
+Model revision: 1c5edc17a7acd8701df6fc341c0d179f1c62c982
+Laya is licensed under Apache License 2.0; see LICENSE.
+
+The backbone originates from jhu-clsp/mmBERT-base, licensed under MIT;
+see MMBERT_LICENSE for the upstream notice.
+
+Modifications include supervised Mac/rule-oriented adaptation, strict full-input
+4096/1024 budgets, independently fitted question-type temperatures, and a
+portable local-inference loader. The inherited architecture and all heads are
+retained. JEV is comparison/category context only; no JEV weights are included.
+This project is not affiliated with or endorsed by JEV or the Laya authors.

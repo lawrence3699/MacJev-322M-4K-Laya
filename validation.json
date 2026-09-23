@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "weight_dtype": "float32",
+  "portable_mps_calibration_examples": 24,
+  "maximum_probability_difference_from_verified_mps_reference": 0.0,
+  "same_device_tolerance": 1e-05,
+  "exact_4096_input_forward_pass": true,
+  "over_budget_input_rejected": true,
+  "cpu_short_input_smoke_test": true,
+  "cuda_portable_loader_tested": false,
+  "scope": "serialization_input_and_forward_integrity_only_not_Mac_task_success",
+  "model_driven_mac_acceptance_completed": false,
+  "gguf_or_mlx_formats_validated": false
+}

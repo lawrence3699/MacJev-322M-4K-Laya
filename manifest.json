@@ -1,0 +1,35 @@
+{
+  "model_name": "MacJev-322M-4K-Laya",
+  "schema_version": 1,
+  "parameters": 321908995,
+  "weight_dtype": "float32",
+  "default_max_length": 4096,
+  "head_max_length": 1024,
+  "temperatures": {
+    "choice": 0.9324428071100596,
+    "score": 1.2489061269486248,
+    "noul": 1.4570162843414909
+  },
+  "base_model": "convaiinnovations/laya",
+  "base_subfolder": "multilingual",
+  "base_revision": "1c5edc17a7acd8701df6fc341c0d179f1c62c982",
+  "upstream_code_commit": "573e5b62696ba441230cd6be71d593331b5d23af",
+  "main_seed": 0,
+  "selection": "preselected_seed0_development_checkpoint_not_test_selected",
+  "status": "experimental_decision_checkpoint",
+  "model_driven_mac_acceptance_completed": false,
+  "files_sha256": {
+    "model.safetensors": "a1c8cb93485dc32a499cd221dfc9a534dd4e309f5c3ab908ea13d0190a203750",
+    "rl_agent_config.json": "b51ec5e0626a2d29c38a91c9d1dc642946e73cbd48c41e24c3c9390b32471803",
+    "encoder/config.json": "83f6916d13ef0f556ac461f28308dc2bffa7ebeadee8ec9e2db5812020ea5bb4",
+    "tokenizer/tokenizer.json": "609d8f4c067cd3950f88594c5a802616cea245823836ef5848ee4fc40aab5b6f",
+    "tokenizer/tokenizer_config.json": "6c6b2d8e3c84ce0e671c129cd6b374b235d6f9863042a5836358d00a89bbb5a1",
+    "LICENSE": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+    "macjev.py": "8c0ec246772772339a74f5438933d745be34c8feb9fc0f84c80ee330cb41e6c0",
+    "README.md": "9001adadd6ea1aee7374dfbbe1e51dfcccc05d657ae1cf349641b18ce661ffff",
+    "requirements.txt": "2ad0d6e3ce3005ccda40be424089dacded728e16efb2a9e454acbb0c08602802",
+    "NOTICE": "d1d22984fc31a39a9f9aa16036fa125b3bea17aca2cdb20cc8ac1e246b347e96",
+    "MMBERT_LICENSE": "d10ba006ae079610d2a620d16d93a63fe46a4aa8ea1bef6874f0d4b1640065a6",
+    "validation.json": "fdb633924e41cbbf4162a329e82f7f02954752208e1b14fbe03c255ea81ab19b"
+  }
+}
