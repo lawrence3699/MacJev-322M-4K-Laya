@@ -18,6 +18,8 @@ tags:
 
 # MacJev-322M-4K-Laya
 
+**Website:** [jevstyle.com](https://jevstyle.com/#macjev) — all JevStyle decision models, benchmarks and quickstart in one place.
+
 **A compact decision model for local Mac agents: one forward pass, calibrated probabilities, 4096-token inputs.**
 
 MacJev takes an observed state and a question with candidate answers. In a single non-autoregressive forward pass it returns a probability for every candidate. Use it to rank candidate actions, route tool calls and check task state, in Chinese or English, entirely on your machine.
